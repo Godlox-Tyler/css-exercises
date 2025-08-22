@@ -1,0 +1,6 @@
+.container .text {
+    background-color: lab(97.14% -21.56 94.48);
+    color: lch(53.23% 104.58 40);
+    font-size: 20px;
+    text-align: center;
+}
