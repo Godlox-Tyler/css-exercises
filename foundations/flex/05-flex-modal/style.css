@@ -20,6 +20,36 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  padding: 10px;
+  gap: 5px;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+/* This is the scuffed way but I'm hoping the solution
+will give me clarity on this... */
+
+.tw {
+  margin-left: 48px;
+  margin-top: -15px;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+
+.header {
+  font-weight:800;
+  font-size:larger;
+}
+
+.left {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
 }
 
 .icon {
@@ -33,6 +63,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: stretch
 }
 
 .close-button {
@@ -66,4 +97,5 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  margin-right: auto;
 }
